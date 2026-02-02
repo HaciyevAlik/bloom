@@ -5,6 +5,7 @@
 [ext_resource type="PackedScene" uid="uid://dreojc300mspo" path="res://scenes/platform.tscn" id="3_lnu2h"]
 [ext_resource type="PackedScene" uid="uid://ch3u7p46t06en" path="res://scenes/coin.tscn" id="4_lbhrr"]
 [ext_resource type="PackedScene" uid="uid://djcwvayrxamq0" path="res://scenes/killzone.tscn" id="5_iywne"]
+[ext_resource type="PackedScene" uid="uid://bm7ngpj4eg1n5" path="res://scenes/slime.tscn" id="6_p57ef"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_lnu2h"]
 texture = ExtResource("2_yqjtg")
@@ -279,3 +280,6 @@ autoplay = &"move"
 
 [node name="Coin" parent="." unique_id=1324416282 instance=ExtResource("4_lbhrr")]
 position = Vector2(585, -168)
+
+[node name="Slime" parent="." unique_id=2129263264 instance=ExtResource("6_p57ef")]
+position = Vector2(525, 17)
